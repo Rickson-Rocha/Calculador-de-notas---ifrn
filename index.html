@@ -14,31 +14,28 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,300;0,500;1,200;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form action="">
-  
-        <div class="container">
-            <div class="input_area">
-                <!-- <h2>1º Bimestre:</h2> -->
-                <label for="">1º bimestre:</label>
-                <input id="1bms" type="number">
-            </div>
-            <div class="input_area">
-           <!--      <h2>2º Bimestre</h2> -->
-                <label for="">2º bimestre:</label>
-                <input id="2bms" type="number">
-            </div>
-            <div class="input_area">
-                <!-- <h2>Prova final</h2> -->
-                <label for="">Prova final:</label>
-                <input id="Pvbms" type="number">
-            </div>
-            <div class="btn">
-            <button type="submit">Calcular</button>
-            <button type="reset">Limpar</button>
-            </div>
-            <textarea name="" id="text_area" rows="8"></textarea>
-            </div>
-    </form>   
-       
+<header>
+    <nav>
+        <a href="">IFCalc</a>
+    </nav>
+</header>
+ <h1 id="titulo">Calcule suas notas</h1>
+ <h2>Semestral</h2>
+ <form action="#">
+    <section>
+    <hr>
+    <br>
+     <label for="1bms">1 bimestre:</label> <br>
+     <input type="number" id="1bms" name="1bms"> <br>
+     <label for="2bms">2 bimestre::</label> <br>
+      <input type="number" id="2bms" name="2bms"> <br>
+      <label for="2bms">Prova final:</label> <br>
+      <input type="number" id="Pvbms" name="Pvbms"> <br>
+    </section> 
+    <div class="btn">
+    <input type="submit" class="btn-item" value="Calcular" />
+     <input type="reset"  class="btn-item"value="limpar" />
+    </div> 
+</form>
 </body>
 </html>

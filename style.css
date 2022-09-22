@@ -2,73 +2,83 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-
-body{
-    background-color: #172031;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-family: 'IBM Plex Mono', monospace;
 }
 
-label{
-    margin-block-start: 0em; 
-    color: white;  
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #137149;
+   
 }
-.input_area{
-    width: 100%;
+body{
+    background-color: #172031;
+}
+header{
+    background-color: #1d1d1f;
+    height: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-input{
-    height: 2rem;
-    border-radius: 10px;
-    padding: 12px 20px;
-}
-input:focus{
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 8px;
-}
-textarea{
-    width: 100%;
-    margin-top: 2em;
-}
-.container{
-    background-color: #BABABA;
-    display: inline-flex;
-    padding: 1.5em;
-    border-radius: 0.5em;
-    flex-direction: column;
-    align-items: center;
-    width: 30em;
-    margin-top:50px;
-    gap: 42px;
-    
-}
-
-.form{
+h1,h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    height: 200px;
+    color: #fff;
+    font-weight: 700;
 }
-.btn{
+section{
+    background-color:#BABABA;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form{
+    margin: 0 auto;
+    text-align: left;
+    width: 50vw; 
+    margin-left : 25vw;
+   
+  }
+  input,select{
+     box-sizing: border-box;
+     width: 50%;
+     padding: 15px;
+     border-radius: 4px;
+     margin-bottom: 15px;
+  }
+  input[type=submit] {
+  width: 20%;
+ }
+ input[type=reset] {
+  width: 20%;
+ }
+ label{
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: #1d1d1f;
+ }
+ .btn{
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    height: 3em;
-    width: 100%;
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+
+   
+ }
+.btn-item{
+ background-color: #03E9F4;
+ font-size: 1rem;
+ cursor: pointer;
+ transition: all 1s ease;
 }
-button{
-    height: 3em;
-    width: 100%;
-    background-color: #03E9F4;
-    border: none;
-    color: white;
-    flex-direction: row;
-}
-button:hover{
-    cursor: pointer;
+.btn-item:hover{
+   background-color: #172031;
+   color: #fff;
 }
