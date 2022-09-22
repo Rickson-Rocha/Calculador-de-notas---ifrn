@@ -14,33 +14,26 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,300;0,500;1,200;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-    <nav>
-        <a href="">IFCalc</a>
-    </nav>
-</header>
- <h1 id="titulo">Calcule suas notas</h1>
- <h2>Semestral</h2>
-    <main>
-        <div class="container">
-          <div class="input">
-            <label for="">1º bimestre:</label>
-              <input type="text" id='1bm'>
-          </div>
-          <div class="input">
-            <label for="">2º bimestre:</label>
-            <input type="text" id='2bm'>
-          </div>
-          <div class="input">
-            <label for="">Prova final:</label>
-            <input type="text" id='pv'>
-          </div>
-          <div class="btn">
-          <button id='calcular' type="">Calcular</button>
-        </div>
-          <div class="result" id='resultado'></div>
-        </div>
-      </main>
-<div id="resultado"></div>
+ <main>
+  <div class="container">
+    <div class="title"> IFCalc - calculo de média semestral </div>
+    <div class="input">
+        <label>1º bimestre:</label>
+        <input type="number" id='primeiro_bm'>
+    </div>
+    <div class="input">
+        <label>2º bimestre:</label>
+        <input type="number" id='segundo_bm'>
+    </div>
+    <div class="input">
+        <label>Prova final:</label>
+        <input type="number" id='pv'>
+    </div>
+    <button id='calcular'>Calcular</button>
+
+    <div class="result" id='resultado'></div>
+  </div>
+</main>
+<script src="main.js"></script>
 </body>
 </html>
