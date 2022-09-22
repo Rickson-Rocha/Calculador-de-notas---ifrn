@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -37,6 +37,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.788) 0px 5px 5px;
 }
 form{
     margin: 0 auto;
@@ -59,8 +60,8 @@ form{
   width: 20%;
  }
  label{
-    display: block;
-    color: #fff;
+    display: inline-block;
+    color: rgb(43, 6, 23);
     font-weight: 700;
     box-shadow: #1d1d1f;
  }
@@ -69,6 +70,7 @@ form{
    align-items: center;
    justify-content: center;
    gap: 50px;
+   margin-top: 20px;
 
    
  }
@@ -81,4 +83,4 @@ form{
 .btn-item:hover{
    background-color: #172031;
    color: #fff;
-}
+} */
