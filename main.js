@@ -25,3 +25,6 @@ function situacao(media){
     if(media<60&&media>=20)return[msg[1]];
     if(media<20)return[msg[2]];
 }
+function provaFinal(media{
+    
+})
