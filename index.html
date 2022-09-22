@@ -21,21 +21,26 @@
 </header>
  <h1 id="titulo">Calcule suas notas</h1>
  <h2>Semestral</h2>
- <section>
- <form action="#" id="formulario">
-    <hr>
-    <br>
-     <label for="1bms">1 bimestre:</label> <br>
-     <input type="number" id="1bms" name="1bms"> <br>
-     <label for="2bms">2 bimestre:</label> <br>
-      <input type="number" id="2bms" name="2bms"> <br>
-      <label for="2bms">Prova final:</label> <br>
-      <input type="number" id="Pvbms" name="Pvbms"> <br>
-    <input type="submit" class="btn-item" value="Calcular" />
-     <input type="reset"  class="btn-item"value="limpar" />
-    </div>  
-</form>
-</section>
+    <main>
+        <div class="container">
+          <div class="input">
+            <label for="">1º bimestre:</label>
+              <input type="text" id='1bm'>
+          </div>
+          <div class="input">
+            <label for="">2º bimestre:</label>
+            <input type="text" id='2bm'>
+          </div>
+          <div class="input">
+            <label for="">Prova final:</label>
+            <input type="text" id='pv'>
+          </div>
+          <div class="btn">
+          <button id='calcular' type="">Calcular</button>
+        </div>
+          <div class="result" id='resultado'></div>
+        </div>
+      </main>
 <div id="resultado"></div>
 </body>
 </html>

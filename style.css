@@ -1,4 +1,4 @@
-/* *{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -13,6 +13,7 @@ a{
 }
 body{
     background-color: #172031;
+    margin: 0 auto;
 }
 header{
     background-color: #1d1d1f;
@@ -31,25 +32,25 @@ h1,h2{
     color: #fff;
     font-weight: 700;
 }
-section{
+main{
     background-color:#BABABA;
+    margin: 0 auto;
     display:flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.788) 0px 5px 5px;
+    width: 500px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.788) 0px 5px 5px; */
 }
-form{
+.container{
     margin: 0 auto;
-    text-align: left;
-    width: 50vw; 
-    margin-left : 25vw;
-   
-  }
-  input,select{
+    padding: 20px;
+}
+  input{
      box-sizing: border-box;
-     width: 50%;
-     padding: 15px;
+     width: 45%;
+     padding: 10px;
      border-radius: 4px;
      margin-bottom: 15px;
   }
@@ -67,20 +68,11 @@ form{
  }
  .btn{
     display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 50px;
-   margin-top: 20px;
-
-   
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
  }
-.btn-item{
- background-color: #03E9F4;
- font-size: 1rem;
- cursor: pointer;
- transition: all 1s ease;
-}
-.btn-item:hover{
-   background-color: #172031;
-   color: #fff;
-} */
+ button{
+    width: 120px;
+    padding: 20px;
+ }
