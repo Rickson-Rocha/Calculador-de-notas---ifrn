@@ -6,22 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculador de Notas - ifrn</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,300;0,500;1,200;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <form action="">
+  
         <div class="container">
-        header
-       </div>
-    </header>
-    <main>
-        <div class="container">
-            main
-        </div>
-    </main>
-    <footer>
-        <div class="container">
-             footer
-        </div>
-    </footer>
+            <div class="input_area">
+                <!-- <h2>1º Bimestre:</h2> -->
+                <label for="">1º bimestre:</label>
+                <input id="1bms" type="number">
+            </div>
+            <div class="input_area">
+           <!--      <h2>2º Bimestre</h2> -->
+                <label for="">2º bimestre:</label>
+                <input id="2bms" type="number">
+            </div>
+            <div class="input_area">
+                <!-- <h2>Prova final</h2> -->
+                <label for="">Prova final:</label>
+                <input id="Pvbms" type="number">
+            </div>
+            <div class="btn">
+            <button type="submit">Calcular</button>
+            <button type="reset">Limpar</button>
+            </div>
+            <textarea name="" id="text_area" rows="8"></textarea>
+            </div>
+    </form>   
+       
 </body>
 </html>
