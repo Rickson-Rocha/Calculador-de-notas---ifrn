@@ -12,8 +12,16 @@ body{
 
 
 }
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    width: 90vw;
+    margin: auto;
+}
 header{
     background-color: #E1E6F6;
+    margin-top:70px;
 }
 main{
     background-color: tomato;
@@ -21,4 +29,5 @@ main{
 }
 footer{
     background-color: plum;
+    margin-top:24px;
 }
