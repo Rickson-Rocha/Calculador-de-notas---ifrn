@@ -28,7 +28,7 @@ main{
 .container{
     display: flex;
     flex-direction: column;
-    background: rgb(255,198,0);
+    background: #BABABA;
     width: 400px;
     height: 700px;
     align-items: center;
